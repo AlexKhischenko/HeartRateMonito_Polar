@@ -1,4 +1,8 @@
 @import "base/variables.scss";
 @import "base/mixins";
 
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
 @import "blocks/promo"
