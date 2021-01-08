@@ -52,6 +52,11 @@
             font-size: 14px;
         }
     }
+    .advantages {
+        &__descr {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -74,6 +79,27 @@
             margin: 50px 0;
         }
     }
+    .advantages {
+        .title {
+            font-size: 24px;
+        }
+        padding: 50px 0 20px;
+        &__card {
+            margin-bottom: 35px;
+        }
+        &__title {
+            margin-bottom: 35px;
+        }
+        &__icon {
+            margin-bottom: 15px;
+        }
+        &__header {
+            margin-bottom: 15px;
+        }
+        &__descr {
+            max-width: 400px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -89,7 +115,7 @@
         }
     }
     .promo {
-        min-height: 510px;
+        min-height: 450px;
         background-position: right;
         &__header {
             margin-top: 100px;
