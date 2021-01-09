@@ -1,14 +1,29 @@
 .consultation {
     min-height: 680px;
     padding: 100px 0 92px;
-    background: url("../img/consultation/consultation-bg.jpg") center center/cover no-repeat;
-    &__title {
-        max-width: 790px;
-        font-size: 36px;
+    background: url("../img/consultation/consultation-bg.jpg") center (center/cover) no-repeat;
+    &__descr {
+        margin-bottom: 36px;
+        font-size: 20px;
         font-weight: 500;
         line-height: normal;
+        letter-spacing: normal;
         text-align: left;
-        text-transform: uppercase;
-        color: #ffffff;
+        color: $secondary-light;
+    }
+    &__input {
+        height: 50px;
+        padding: 0 20px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: none;
+        background-color: $secondary-light;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        color: #4b4b4b;
+        &:nth-child(3) {
+            margin-bottom: 20px;
+        }
     }
 }

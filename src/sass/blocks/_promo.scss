@@ -8,14 +8,14 @@
         font-weight: 500;
         text-align: right;
         text-transform: uppercase;
-        color: #ffffff;
+        color: $secondary-light;
     }
     &__subheader {
         font-size: 24px;
         font-weight: 500;
         text-align: right;
         text-transform: uppercase;
-        color: #ffffff;
+        color: $secondary-light;
     }
     &__icons {
         margin-top: 70px;
@@ -36,17 +36,17 @@
             font-size: 14px;
             font-weight: 300;
             text-align: center;
-            color: #ffffff;
+            color: $secondary-light;
         }
     }
     &__link {
         font-size: 16px;
         font-weight: 300;
         text-align: right;
-        color: #ffffff;
+        color: $secondary-light;
         a {
             text-transform: uppercase;
-            color: #ffffff;
+            color: $secondary-light;
         }
     }
 }
